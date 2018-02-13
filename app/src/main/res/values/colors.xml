@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00BFFF</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="metaDataOfTrackColor">#008CBA</color>
+
+    <!--Material-->
+    <!--Light-->
+    <color name="cPrimaryTextLight">#de000000</color>
+    <color name="cSecondaryTextLight">#8a000000</color>
+    <color name="cHintTextLight">#61000000</color>
+    <color name="cDisabledTextLight">#61000000</color>
+    <color name="cDividerLight">#1f000000</color>
+    <color name="cActiveIconLight">#8a000000</color>
+    <color name="cInactiveIconLight">#61000000</color>
+    <color name="cStatusBarLight">#e0e0e0</color>
+    <color name="cAppBarLight">#f5f5f5</color>
+    <color name="cBackgroundLight">#fafafa</color>
+    <color name="cCardsLight">#ffffff</color>
+
+    <!--Dark-->
+    <color name="cPrimaryTextDark">#ffffff</color>
+    <color name="cSecondaryTextDark">#b3ffffff</color>
+    <color name="cHintTextDark">#80ffffff</color>
+    <color name="cDisabledTextDark">#80ffffff</color>
+    <color name="cDividerDark">#1fffffff</color>
+    <color name="cActiveIconDark">#ffffff</color>
+    <color name="cInactiveIconDark">#81ffffff</color>
+    <color name="cStatusBarDark">#000000</color>
+    <color name="cAppBarDark">#212121</color>
+    <color name="cBackgroundDark">#303030</color>
+    <color name="cCardsDark">#424242</color>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/about_appbar"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/description_1"
+            android:textAlignment="center"
+            android:textColor="@color/cPrimaryTextLight" />
+
+        <TextView
+            android:id="@+id/about_link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/site"
+            android:autoLink="web"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+
+        <TextView
+            style="@style/Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/description_2"
+            android:textAlignment="center"
+            android:textColor="@color/cPrimaryTextLight" />
+
+        <TextView
+            style="@style/Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/description_3"
+            android:textAlignment="center"
+            android:textColor="@color/cPrimaryTextLight" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/about_appbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/about_back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:padding="8dp"
+            android:src="@drawable/ic_arrow_back_white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/title_about"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+</RelativeLayout>
